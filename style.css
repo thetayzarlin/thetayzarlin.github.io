@@ -1,0 +1,88 @@
+body{
+  font-family: Poppins, Inter, Roboto, Arial, Sans-serif;
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  background-color: #095772;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 42px;
+  font-style: normal;
+}
+@media screen and (max-width: 500px) {
+  h1{
+    font-size: 32px;
+  }
+}
+
+h3{
+  font-weight: 600;
+  font-size: 24px;
+  font-style: normal;
+}
+@media screen and (max-width: 500px) {
+  h3{
+    font-size: 22px;
+  }
+}
+
+a{
+  color: #ffffff;
+}
+a:hover{
+  color: #f8f8f8;
+}
+
+.btn{
+  font-size: small;
+}
+
+
+/* header */
+header{
+  padding: 50px 0 50px;
+}
+header img{
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 500px) {
+  header img{
+    width: 50%;
+    height: auto;
+  }
+}
+
+header h1{ 
+  text-align: center;
+  margin-bottom: 20px;
+}
+header p{
+  opacity: 0.8;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+/* section */
+section{
+  padding: 10px;
+}
+.fab{
+  font-size: 28px;
+  padding: 10px;
+  color: #ffffff;
+}
+section .fac:hover{
+  color: #f8f8f8;
+}
+
+/* footer section */
+footer{
+  padding-bottom: 10px;
+}
